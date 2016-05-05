@@ -1,0 +1,4 @@
+# DebugDealloc
+检测ViewController 是否执行dealloc 释放掉
+
+*使用对navigationController的扩展对。pop掉的viewController进行监测是否执行了dealloc方法检测内存泄漏
